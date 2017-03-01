@@ -25,7 +25,6 @@ diskimages:
       elements:
         - ubuntu
         - vm
-        - openstack-repos
         - puppet
         - nodepool-base
         - cache-devstack
