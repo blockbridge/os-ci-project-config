@@ -1,6 +1,6 @@
 script-dir: /etc/nodepool/scripts
 elements-dir: /etc/nodepool/elements
-images-dir: /opt/nodepool_dib
+images-dir: /dib/images
 
 cron:
   cleanup: '*/1 * * * *'
@@ -31,8 +31,8 @@ diskimages:
         - cache-devstack
       release: trusty
       env-vars:
-        TMPDIR: /opt/dib_tmp
-        DIB_IMAGE_CACHE: /opt/dib_cache
+        TMPDIR: /dib/tmp
+        DIB_IMAGE_CACHE: /dib/cache
 
 providers:
   - name: bbstack
