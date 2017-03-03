@@ -16,7 +16,7 @@ gearman-servers:
 labels:
   - name: d-p-c
     image: dpc
-    min-ready: 1
+    min-ready: 0
     providers:
       - name: bbstack
 
